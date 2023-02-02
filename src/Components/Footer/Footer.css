@@ -1,0 +1,13 @@
+.Footer{
+    display: flex;
+   height: 150px; 
+
+}
+
+.footerLeft{
+    width: 50%;
+}
+
+.footerRight{
+    width: 50%;
+}

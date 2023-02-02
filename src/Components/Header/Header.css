@@ -1,0 +1,50 @@
+
+
+.header{
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(78, 52, 21);
+    margin-bottom: 3%;
+    border-radius: 3%;
+}
+
+.headerLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.headerLeft >img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 60px;
+    margin-right: 40px;
+}
+
+.headerLeft > h1{
+    font-size: 40px;
+    color: black;
+}
+
+.headerCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerCenter >ul{
+    width: 500px;
+  display: grid;
+    align-items: stretch;  
+    grid-template-columns: repeat(3,auto);
+}
+
+
+
