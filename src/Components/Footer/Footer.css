@@ -1,13 +1,15 @@
-.Footer{
+.Footer {
     display: flex;
-   height: 150px; 
+    height: 150px;
+    margin-left: 15%;
+    margin-right: 15%;
 
 }
 
-.footerLeft{
+.footerLeft {
     width: 50%;
 }
 
-.footerRight{
+.footerRight {
     width: 50%;
 }

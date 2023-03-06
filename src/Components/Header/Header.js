@@ -4,29 +4,31 @@ import logo from '../../Images/logo.jpg'
 
 
 
-function Header(){
-    return(
+function Header() {
+    return (
         <div className="header">
-            <div className="headerLeft"> 
-            <img className='logoImg' src={logo}/>
-            <h1> )unto( </h1>
+            <div className="headerLeft">
+                <h2> )unto(</h2>
             </div>
-            <div className="headerCenter"> 
-       
-            <ul className='headerList'>
-                    <li> Inicio</li>
-                    <li> Menú</li>
-                    <li> )unto( </li>
-                    
-            </ul>
-         
+            <div className="headerCenter">
+                <img className='logoImg' src={logo} />
+
+
+
 
 
             </div>
-            <div className="headerRight"> 
+            <div className="headerRight">
+
+                <ul className='headerList'>
+                    <li>Tienda</li>
+                    <li>Menú</li>
+                    <li>Comunidad</li>
+
+                </ul>
 
             </div>
-            
+
         </div>
     )
 }
